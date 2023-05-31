@@ -5,3 +5,5 @@ MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di n
 MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
 SOLUZIONE: 
+1- Creo un array contenente gli object con i dati delle persone del team;
+2- Stampo l'array su console
