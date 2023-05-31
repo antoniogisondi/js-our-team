@@ -6,4 +6,6 @@ MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe.
 
 SOLUZIONE: 
 1- Creo un array contenente gli object con i dati delle persone del team;
-2- Stampo l'array su console
+2- Stampo l'array su console;
+3- Stampo a schermo le chiavi dei vari object nel DOM;
+
