@@ -34,9 +34,9 @@ let team = [
 
 console.log(team)
 
-document.querySelector(".container").innerHTML = `Il risultato è: ${team[0].nome},  ${team[0].role}, ${team[0].image}`
-document.querySelector(".container-1").innerHTML = `Il risultato è: ${team[1].nome},  ${team[1].role},  ${team[1].image}`
-document.querySelector(".container-2").innerHTML = `Il risultato è: ${team[2].nome},  ${team[2].role},  ${team[2].image}`
-document.querySelector(".container-3").innerHTML = `Il risultato è: ${team[3].nome},  ${team[3].role},  ${team[3].image}`
-document.querySelector(".container-4").innerHTML = `Il risultato è: ${team[4].nome},  ${team[4].role},  ${team[4].image}`
-document.querySelector(".container-5").innerHTML = `Il risultato è: ${team[5].nome},  ${team[5].role}, ${team[5].image}`
+document.querySelector(".container").innerHTML = `${team[0].nome},  ${team[0].role}, ${team[0].image}`
+document.querySelector(".container-1").innerHTML = `${team[1].nome},  ${team[1].role},  ${team[1].image}`
+document.querySelector(".container-2").innerHTML = `${team[2].nome},  ${team[2].role},  ${team[2].image}`
+document.querySelector(".container-3").innerHTML = `${team[3].nome},  ${team[3].role},  ${team[3].image}`
+document.querySelector(".container-4").innerHTML = `${team[4].nome},  ${team[4].role},  ${team[4].image}`
+document.querySelector(".container-5").innerHTML = `${team[5].nome},  ${team[5].role}, ${team[5].image}`
