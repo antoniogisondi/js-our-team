@@ -36,23 +36,23 @@ console.log(team)
 
 function innerContent(){
     document.querySelector(".card").innerHTML = `<img src="./img/${team[0].image}">
-                                                <h5 class="card-title">${team[0].nome}</h5>
-                                                <p class="card-text">${team[0].role}</p>`
+                                                <h5 class="card-title d-flex justify-content-center">${team[0].nome}</h5>
+                                                <p class="card-text d-flex justify-content-center">${team[0].role}</p>`
     document.querySelector(".card-1").innerHTML = `<img src="./img/${team[1].image}">
-                                                    <h5 class="card-title">${team[1].nome}</h5>
-                                                    <p class="card-text">${team[1].role}</p>`
+                                                    <h5 class="card-title d-flex justify-content-center">${team[1].nome}</h5>
+                                                    <p class="card-text d-flex justify-content-center">${team[1].role}</p>`
     document.querySelector(".card-2").innerHTML = `<img src="./img/${team[2].image}">
-                                                    <h5 class="card-title">${team[2].nome}</h5>
-                                                    <p class="card-text">${team[2].role}</p>`
+                                                    <h5 class="card-title d-flex justify-content-center">${team[2].nome}</h5>
+                                                    <p class="card-text d-flex justify-content-center">${team[2].role}</p>`
     document.querySelector(".card-3").innerHTML = `<img src="./img/${team[3].image}">
-                                                    <h5 class="card-title">${team[3].nome}</h5>
-                                                    <p class="card-text">${team[3].role}</p>`
+                                                    <h5 class="card-title d-flex justify-content-center">${team[3].nome}</h5>
+                                                    <p class="card-text d-flex justify-content-center">${team[3].role}</p>`
     document.querySelector(".card-4").innerHTML = `<img src="./img/${team[4].image}">
-                                                    <h5 class="card-title">${team[4].nome}</h5>
-                                                    <p class="card-text">${team[4].role}</p>`
+                                                    <h5 class="card-title d-flex justify-content-center">${team[4].nome}</h5>
+                                                    <p class="card-text d-flex justify-content-center">${team[4].role}</p>`
     document.querySelector(".card-5").innerHTML = `<img src="./img/${team[5].image}">
-                                                    <h5 class="card-title">${team[5].nome}</h5>
-                                                    <p class="card-text">${team[5].role}</p>`
+                                                    <h5 class="card-title d-flex justify-content-center">${team[5].nome}</h5>
+                                                    <p class="card-text d-flex justify-content-center">${team[5].role}</p>`
 }
 
 
