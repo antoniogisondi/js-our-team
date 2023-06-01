@@ -1,4 +1,5 @@
 "use strict"
+// MILESTONE 0
 let team = [
     {
         'nome': 'Wayne Barnett',
@@ -32,8 +33,14 @@ let team = [
     },
 ]
 
-console.log(team)
+// MILESTONE 1
+for(key in team){
+    console.log(team[key].name)
+    console.log(team[key].role)
+    console.log(team[key].image)
+}
 
+// MILESTONE 2
 document.querySelector(".container").innerHTML = `${team[0].nome},  ${team[0].role}, ${team[0].image}`
 document.querySelector(".container-1").innerHTML = `${team[1].nome},  ${team[1].role},  ${team[1].image}`
 document.querySelector(".container-2").innerHTML = `${team[2].nome},  ${team[2].role},  ${team[2].image}`
