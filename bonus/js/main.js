@@ -1,4 +1,5 @@
 "use strict"
+// MILESTONE 0
 let team = [
     {
         'nome': 'Wayne Barnett',
@@ -32,8 +33,14 @@ let team = [
     },
 ]
 
-console.log(team)
+// MILESTONE 1
+for(key in team){
+    console.log(team[key].name)
+    console.log(team[key].role)
+    console.log(team[key].image)
+}
 
+// MILESTONE 2, BONUS 1, BONUS 2
 function innerContent(){
     document.querySelector(".card").innerHTML = `<img src="./img/${team[0].image}">
                                                 <h5 class="card-title d-flex justify-content-center">${team[0].nome}</h5>
