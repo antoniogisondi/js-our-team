@@ -34,8 +34,8 @@ let team = [
 ]
 
 // MILESTONE 1
-for(key in team){
-    console.log(team[key].name)
+for(let key in team){
+    console.log(team[key].nome)
     console.log(team[key].role)
     console.log(team[key].image)
 }

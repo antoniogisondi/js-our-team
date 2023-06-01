@@ -34,16 +34,16 @@ let team = [
 ]
 
 // MILESTONE 1
-for(key in team){
-    console.log(team[key].name)
+for(let key in team){
+    console.log(team[key].nome)
     console.log(team[key].role)
     console.log(team[key].image)
 }
 
 // MILESTONE 2
-document.querySelector(".container").innerHTML = `${team[0].nome},  ${team[0].role}, ${team[0].image}`
-document.querySelector(".container-1").innerHTML = `${team[1].nome},  ${team[1].role},  ${team[1].image}`
-document.querySelector(".container-2").innerHTML = `${team[2].nome},  ${team[2].role},  ${team[2].image}`
-document.querySelector(".container-3").innerHTML = `${team[3].nome},  ${team[3].role},  ${team[3].image}`
-document.querySelector(".container-4").innerHTML = `${team[4].nome},  ${team[4].role},  ${team[4].image}`
-document.querySelector(".container-5").innerHTML = `${team[5].nome},  ${team[5].role}, ${team[5].image}`
+let inner = document.querySelector(".container")
+for(let i = 0; i<team.length; i++){
+    inner.innerHTML += `${team[i].nome}`
+    inner.innerHTML += `${team[i].role}`
+    inner.innerHTML += `${team[i].image}`
+}
